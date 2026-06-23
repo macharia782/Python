@@ -55,3 +55,30 @@ for student in range(10):
     if student == 5:
         break
     print (student)  # This will print numbers from 0 to 9, but will skip 3 and stop at 5
+
+
+#Error handling
+#in the case where the user inputs a string instead of number
+while True:  #makes sure it continues printing while the user has not entered the correct input
+    try: 
+        salary = int(input("Enter your salary: ")) 
+        print("Your salary is " , salary)
+        break
+    except ValueError:
+        print("Error : Please type a valid number")
+
+
+#salary = int(input("Enter your salary: ")) 
+#    print(f"Your salary is {salary} USD")
+
+#Class Group Work
+#Activity 1
+#Write a program that prints students numbered 1-10 and appends "Failed the course" for every even numbered student.
+for student in range(1,11):
+    if student % 2 == 0:
+        print(f"student {student} (Failed the course)")
+        #print("student" , student , "(Failed)")
+        #print("student" + str(student) + "(Failed)"
+    else: 
+        print("student " + str(student) + " (Passed)")
+    
