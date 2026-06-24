@@ -81,4 +81,4 @@ for student in range(1,11):
         #print("student" + str(student) + "(Failed)"
     else: 
         print("student " + str(student) + " (Passed)")
-    
+
