@@ -1,0 +1,2 @@
+the first num user typed was {num1}, the second number the user types is {num2}the first num user typed was {num1}, the second number the user types is {num2}the first num user typed was 8, the second number the user types is 2
+the first num user typed was 8, the second number the user types is 2.
